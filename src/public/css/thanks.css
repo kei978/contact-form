@@ -1,0 +1,50 @@
+.thanks {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanks__background-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #e5e5e5;
+    font-size: 250px;
+    opacity: 0.4;
+    pointer-events: none;
+    user-select: none;
+    white-space: nowrap;
+}
+
+.thanks__card {
+    position: relative;
+    text-align: center;
+    z-index: 10;
+    width: 100%;
+    max-width: 600px;
+}
+
+.thanks__title {
+    margin-bottom: 40px;
+    color: #8a7867;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.thanks__button-area {
+    margin-top: 20px;
+}
+
+.thanks__button {
+    display: inline-block;
+    background-color: #8a7867;;
+    color: #fff;
+    padding: 12px 40px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.2s;
+}

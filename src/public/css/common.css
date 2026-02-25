@@ -1,0 +1,35 @@
+body {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header {
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 2px solid #f0f0ef;
+}
+
+.header__left,
+.header__right {
+    width: 150px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header_inner {
+    max-width: 1230px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #8a7867;
+}
+
+.header__logo {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}

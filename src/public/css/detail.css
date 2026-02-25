@@ -1,0 +1,75 @@
+.modal-page-overlay {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.modal-page-window {
+    position: relative;
+    width: 660px;
+    padding: 45px;
+    border: 1px solid #8a7867;
+    background-color: #fff;
+    color: #8a7867;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.modal-page-close {
+    position: absolute;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    right: 20px;
+    top: 20px;
+    border: 1.5px solid #8a7867;
+    border-radius: 50%;
+    background: none;
+    color: #8a7867;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.modal-page-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.modal-page-label {
+    width: 180px;
+    font-weight: bold;
+    color: #8a7867;
+}
+
+.modal-page-value {
+    flex: 1;
+    margin: 0;
+    color: #8a7867;
+}
+
+.modal-page-content-row {
+    align-items: flex-start;
+}
+
+.modal-page-delete-form {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.modal-page-delete {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    background-color: #d9534f;
+    color: #fff;
+    cursor: pointer;
+}
